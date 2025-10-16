@@ -4,7 +4,6 @@
   src: url("./fonts/FFNort-Thin.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -12,7 +11,6 @@
   src: url("./fonts/FFNort-ThinItalic.woff2") format("woff2");
   font-weight: 100;
   font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
@@ -20,7 +18,6 @@
   src: url("./fonts/FFNort-ExtraLight.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -28,7 +25,6 @@
   src: url("./fonts/FFNort-ExtraLightItalic.woff2") format("woff2");
   font-weight: 200;
   font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
@@ -36,7 +32,6 @@
   src: url("./fonts/FFNort-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -44,7 +39,6 @@
   src: url("./fonts/FFNort-LightItalic.woff2") format("woff2");
   font-weight: 300;
   font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
@@ -52,7 +46,6 @@
   src: url("./fonts/FFNort-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -60,7 +53,6 @@
   src: url("./fonts/FFNort-Italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
@@ -68,7 +60,6 @@
   src: url("./fonts/FFNort-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -76,7 +67,6 @@
   src: url("./fonts/FFNort-MediumItalic.woff2") format("woff2");
   font-weight: 500;
   font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
@@ -84,7 +74,6 @@
   src: url("./fonts/FFNort-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -92,7 +81,6 @@
   src: url("./fonts/FFNort-BoldItalic.woff2") format("woff2");
   font-weight: 700;
   font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
@@ -100,7 +88,6 @@
   src: url("./fonts/FFNort-ExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -108,7 +95,6 @@
   src: url("./fonts/FFNort-ExtraBoldItalic.woff2") format("woff2");
   font-weight: 800;
   font-style: italic;
-  font-display: swap;
 }
 
 @font-face {
@@ -116,7 +102,6 @@
   src: url("./fonts/FFNort-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -124,5 +109,4 @@
   src: url("./fonts/FFNort-BlackItalic.woff2") format("woff2");
   font-weight: 900;
   font-style: italic;
-  font-display: swap;
 }
