@@ -1,308 +1,208 @@
-/* flownetics-fonts.css
 @font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-Thin.woff2") format("woff2");
+  font-family: "FF Nort Thin";
+  src: url("./fonts/FFNort-Thin.eot");
+  src: local("FF Nort Thin"), local("FFNort-Thin"),
+    url("./fonts/FFNort-Thin.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-Thin.woff2") format("woff2"),
+    url("./fonts/FFNort-Thin.woff") format("woff"),
+    url("./fonts/FFNort-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-ThinItalic.woff2") format("woff2");
-  font-weight: 100;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-ExtraLight.woff2") format("woff2");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-ExtraLightItalic.woff2") format("woff2");
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-LightItalic.woff2") format("woff2");
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-MediumItalic.woff2") format("woff2");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-BoldItalic.woff2") format("woff2");
-  font-weight: 700;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-ExtraBold.woff2") format("woff2");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-ExtraBoldItalic.woff2") format("woff2");
-  font-weight: 800;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-Black.woff2") format("woff2");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Flownetics";
-  src: url("./fonts/FFNort-BlackItalic.woff2") format("woff2");
-  font-weight: 900;
-  font-style: italic;
-} */
-
-@font-face {
-  font-family: "FF Nort ExtLt";
-  src: url("./assets/fonts/FFNort-ExtraLight.eot");
-  src: local("FF Nort Extra Light"), local("FFNort-ExtraLight"),
-    url("./assets/fonts/FFNort-ExtraLight.eot?#iefix")
-      format("embedded-opentype"),
-    url("./assets/fonts/FFNort-ExtraLight.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-ExtraLight.woff") format("woff"),
-    url("./assets/fonts/FFNort-ExtraLight.ttf") format("truetype");
-  font-weight: 200, 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "FF Nort ExtLt Italic";
-  src: url("./assets/fonts/FFNort-ExtraLightItalic.eot");
-  src: local("FF Nort Extra Light Italic"), local("FFNort-ExtraLightItalic"),
-    url("./assets/fonts/FFNort-ExtraLightItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./assets/fonts/FFNort-ExtraLightItalic.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-ExtraLightItalic.woff") format("woff"),
-    url("./assets/fonts/FFNort-ExtraLightItalic.ttf") format("truetype");
-  font-weight: 200, 800;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "FF Nort ExtBd Italic";
-  src: url("./assets/fonts/FFNort-ExtraBoldItalic.eot");
-  src: local("FF Nort Extra Bold Italic"), local("FFNort-ExtraBoldItalic"),
-    url("./assets/fonts/FFNort-ExtraBoldItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./assets/fonts/FFNort-ExtraBoldItalic.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-ExtraBoldItalic.woff") format("woff"),
-    url("./assets/fonts/FFNort-ExtraBoldItalic.ttf") format("truetype");
-  font-weight: 800;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "FF Nort ExtBd";
-  src: url("./assets/fonts/FFNort-ExtraBold.eot");
-  src: local("FF Nort Extra Bold"), local("FFNort-ExtraBold"),
-    url("./assets/fonts/FFNort-ExtraBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("./assets/fonts/FFNort-ExtraBold.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-ExtraBold.woff") format("woff"),
-    url("./assets/fonts/FFNort-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "FF Nort Med Italic";
-  src: url("./assets/fonts/FFNort-MediumItalic.eot");
-  src: local("FF Nort Medium Italic"), local("FFNort-MediumItalic"),
-    url("./assets/fonts/FFNort-MediumItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./assets/fonts/FFNort-MediumItalic.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-MediumItalic.woff") format("woff"),
-    url("./assets/fonts/FFNort-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "FF Nort Med";
-  src: url("./assets/fonts/FFNort-Medium.eot");
-  src: local("FF Nort Medium"), local("FFNort-Medium"),
-    url("./assets/fonts/FFNort-Medium.eot?#iefix") format("embedded-opentype"),
-    url("./assets/fonts/FFNort-Medium.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-Medium.woff") format("woff"),
-    url("./assets/fonts/FFNort-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "FF Nort Thin Italic";
-  src: url("./assets/fonts/FFNort-ThinItalic.eot");
+  src: url("./fonts/FFNort-ThinItalic.eot");
   src: local("FF Nort Thin Italic"), local("FFNort-ThinItalic"),
-    url("./assets/fonts/FFNort-ThinItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./assets/fonts/FFNort-ThinItalic.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-ThinItalic.woff") format("woff"),
-    url("./assets/fonts/FFNort-ThinItalic.ttf") format("truetype");
+    url("./fonts/FFNort-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-ThinItalic.woff2") format("woff2"),
+    url("./fonts/FFNort-ThinItalic.woff") format("woff"),
+    url("./fonts/FFNort-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
-}
-@font-face {
-  font-family: "FF Nort Bold";
-  src: url("./assets/fonts/FFNort-Bold.eot");
-  src: local("FF Nort Bold"), local("FFNort-ThinBold"),
-    url("./assets/fonts/FFNort-Bold.eot?#iefix") format("embedded-opentype");
-  font-weight: 100, 900;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "FF Nort";
-  src: url("./assets/fonts/FFNort-Regular.eot");
-  src: local("FF Nort Regular"), local("FFNort-Regular"),
-    url("./assets/fonts/FFNort-Regular.eot?#iefix") format("embedded-opentype"),
-    url("./assets/fonts/FFNort-Regular.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-Regular.woff") format("woff"),
-    url("./assets/fonts/FFNort-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "FF Nort Extra Light";
+  src: url("./fonts/FFNort-ExtraLight.eot");
+  src: local("FF Nort Extra Light"), local("FFNort-ExtraLight"),
+    url("./fonts/FFNort-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-ExtraLight.woff2") format("woff2"),
+    url("./fonts/FFNort-ExtraLight.woff") format("woff"),
+    url("./fonts/FFNort-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "FF Nort Black Italic";
-  src: url("./assets/fonts/FFNort-BlackItalic.eot");
-  src: local("FF Nort Black Italic"), local("FFNort-BlackItalic"),
-    url("./assets/fonts/FFNort-BlackItalic.eot?#iefix")
+  font-family: "FF Nort Extra Light Italic";
+  src: url("./fonts/FFNort-ExtraLightItalic.eot");
+  src: local("FF Nort Extra Light Italic"), local("FFNort-ExtraLightItalic"),
+    url("./fonts/FFNort-ExtraLightItalic.eot?#iefix")
       format("embedded-opentype"),
-    url("./assets/fonts/FFNort-BlackItalic.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-BlackItalic.woff") format("woff"),
-    url("./assets/fonts/FFNort-BlackItalic.ttf") format("truetype");
-  font-weight: 900;
+    url("./fonts/FFNort-ExtraLightItalic.woff2") format("woff2"),
+    url("./fonts/FFNort-ExtraLightItalic.woff") format("woff"),
+    url("./fonts/FFNort-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
   font-style: italic;
-}
-
-@font-face {
-  font-family: "FF Nort Black";
-  src: url("./assets/fonts/FFNort-Black.eot");
-  src: local("FF Nort Black"), local("FFNort-Black"),
-    url("./assets/fonts/FFNort-Black.eot?#iefix") format("embedded-opentype"),
-    url("./assets/fonts/FFNort-Black.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-Black.woff") format("woff"),
-    url("./assets/fonts/FFNort-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "FF Nort Thin";
-  src: url("./assets/fonts/FFNort-Thin.eot");
-  src: local("FF Nort Thin"), local("FFNort-Thin"),
-    url("./assets/fonts/FFNort-Thin.eot?#iefix") format("embedded-opentype"),
-    url("./assets/fonts/FFNort-Thin.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-Thin.woff") format("woff"),
-    url("./assets/fonts/FFNort-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "FF Nort Light";
-  src: url("./assets/fonts/FFNort-Light.eot");
+  src: url("./fonts/FFNort-Light.eot");
   src: local("FF Nort Light"), local("FFNort-Light"),
-    url("./assets/fonts/FFNort-Light.eot?#iefix") format("embedded-opentype"),
-    url("./assets/fonts/FFNort-Light.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-Light.woff") format("woff"),
-    url("./assets/fonts/FFNort-Light.ttf") format("truetype");
-  font-weight: 300, 900;
+    url("./fonts/FFNort-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-Light.woff2") format("woff2"),
+    url("./fonts/FFNort-Light.woff") format("woff"),
+    url("./fonts/FFNort-Light.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "FF Nort Light Italic";
-  src: url("./assets/fonts/FFNort-LightItalic.eot");
+  src: url("./fonts/FFNort-LightItalic.eot");
   src: local("FF Nort Light Italic"), local("FFNort-LightItalic"),
-    url("./assets/fonts/FFNort-LightItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./assets/fonts/FFNort-LightItalic.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-LightItalic.woff") format("woff"),
-    url("./assets/fonts/FFNort-LightItalic.ttf") format("truetype");
+    url("./fonts/FFNort-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-LightItalic.woff2") format("woff2"),
+    url("./fonts/FFNort-LightItalic.woff") format("woff"),
+    url("./fonts/FFNort-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "FF Nort Bold Italic";
-  src: url("./assets/fonts/FFNort-BoldItalic.eot");
-  src: local("FF Nort Bold Italic"), local("FFNort-BoldItalic"),
-    url("./assets/fonts/FFNort-BoldItalic.eot?#iefix")
-      format("embedded-opentype"),
-    url("./assets/fonts/FFNort-BoldItalic.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-BoldItalic.woff") format("woff"),
-    url("./assets/fonts/FFNort-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
+  font-family: "FF Nort";
+  src: url("./fonts/FFNort-Regular.eot");
+  src: local("FF Nort Regular"), local("FFNort-Regular"),
+    url("./fonts/FFNort-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-Regular.woff2") format("woff2"),
+    url("./fonts/FFNort-Regular.woff") format("woff"),
+    url("./fonts/FFNort-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "FF Nort Italic";
-  src: url("./assets/fonts/FFNort-Italic.eot");
+  src: url("./fonts/FFNort-Italic.eot");
   src: local("FF Nort Italic"), local("FFNort-Italic"),
-    url("./assets/fonts/FFNort-Italic.eot?#iefix") format("embedded-opentype"),
-    url("./assets/fonts/FFNort-Italic.woff2") format("woff2"),
-    url("./assets/fonts/FFNort-Italic.woff") format("woff"),
-    url("./assets/fonts/FFNort-Italic.ttf") format("truetype");
-  font-weight: normal;
+    url("./fonts/FFNort-Italic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-Italic.woff2") format("woff2"),
+    url("./fonts/FFNort-Italic.woff") format("woff"),
+    url("./fonts/FFNort-Italic.ttf") format("truetype");
+  font-weight: 400;
   font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Nort Medium";
+  src: url("./fonts/FFNort-Medium.eot");
+  src: local("FF Nort Medium"), local("FFNort-Medium"),
+    url("./fonts/FFNort-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-Medium.woff2") format("woff2"),
+    url("./fonts/FFNort-Medium.woff") format("woff"),
+    url("./fonts/FFNort-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Nort Medium Italic";
+  src: url("./fonts/FFNort-MediumItalic.eot");
+  src: local("FF Nort Medium Italic"), local("FFNort-MediumItalic"),
+    url("./fonts/FFNort-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-MediumItalic.woff2") format("woff2"),
+    url("./fonts/FFNort-MediumItalic.woff") format("woff"),
+    url("./fonts/FFNort-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Nort Bold";
+  src: url("./fonts/FFNort-Bold.eot");
+  src: local("FF Nort Bold"), local("FFNort-Bold"),
+    url("./fonts/FFNort-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-Bold.woff2") format("woff2"),
+    url("./fonts/FFNort-Bold.woff") format("woff"),
+    url("./fonts/FFNort-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Nort Bold Italic";
+  src: url("./fonts/FFNort-BoldItalic.eot");
+  src: local("FF Nort Bold Italic"), local("FFNort-BoldItalic"),
+    url("./fonts/FFNort-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-BoldItalic.woff2") format("woff2"),
+    url("./fonts/FFNort-BoldItalic.woff") format("woff"),
+    url("./fonts/FFNort-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Nort Extra Bold";
+  src: url("./fonts/FFNort-ExtraBold.eot");
+  src: local("FF Nort Extra Bold"), local("FFNort-ExtraBold"),
+    url("./fonts/FFNort-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-ExtraBold.woff2") format("woff2"),
+    url("./fonts/FFNort-ExtraBold.woff") format("woff"),
+    url("./fonts/FFNort-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Nort Extra Bold Italic";
+  src: url("./fonts/FFNort-ExtraBoldItalic.eot");
+  src: local("FF Nort Extra Bold Italic"), local("FFNort-ExtraBoldItalic"),
+    url("./fonts/FFNort-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-ExtraBoldItalic.woff2") format("woff2"),
+    url("./fonts/FFNort-ExtraBoldItalic.woff") format("woff"),
+    url("./fonts/FFNort-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Nort Black";
+  src: url("./fonts/FFNort-Black.eot");
+  src: local("FF Nort Black"), local("FFNort-Black"),
+    url("./fonts/FFNort-Black.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-Black.woff2") format("woff2"),
+    url("./fonts/FFNort-Black.woff") format("woff"),
+    url("./fonts/FFNort-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FF Nort Black Italic";
+  src: url("./fonts/FFNort-BlackItalic.eot");
+  src: local("FF Nort Black Italic"), local("FFNort-BlackItalic"),
+    url("./fonts/FFNort-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/FFNort-BlackItalic.woff2") format("woff2"),
+    url("./fonts/FFNort-BlackItalic.woff") format("woff"),
+    url("./fonts/FFNort-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
